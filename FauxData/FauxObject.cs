@@ -130,7 +130,7 @@ internal static class FauxObject
 
                     var property = topDownProperties[i];
                     if (i + 1 < topDownProperties.Length)
-                        current = property.GetValue(objectsToSet);
+                        current = property.GetValue(current);
                     else
                         property.SetValue(current, valueToSet);
                 }
