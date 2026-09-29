@@ -12,8 +12,8 @@
     <PackageTags>fake;test-data;faker;testing</PackageTags>
     <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/you/Faux</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/you/Faux</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/didii/faux</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/didii/faux</PackageProjectUrl>
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
