@@ -39,7 +39,7 @@ public static class FauxDefaults
         FauxRuleFactoryConfig.ForType<DateOnly>(() =>
         {
             // Get any date withing a 2-year range of today
-            const int yearInDays = 24 * 365;
+            const int yearInDays = 2 * 365;
             return DateOnly.FromDateTime(DateTime.UtcNow.Date.AddDays(Random.Next(-yearInDays, yearInDays)));
         }),
         FauxRuleFactoryConfig.ForType<DateTime>(() =>
