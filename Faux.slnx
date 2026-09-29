@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FauxData.Tests/FauxData.Tests.csproj" />
+  <Project Path="FauxData/FauxData.csproj" />
+</Solution>
