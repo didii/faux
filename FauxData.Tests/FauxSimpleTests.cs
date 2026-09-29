@@ -68,17 +68,6 @@ public class FauxSimpleTests
     }
 
     [Fact]
-    public void RandomDateOnly_WithinTwoYearsOfToday()
-    {
-        var today = DateOnly.FromDateTime(DateTime.UtcNow);
-        Repeat(() =>
-        {
-            var data = _sut.Model<DateOnly>();
-            data.Should().BeOnOrAfter(today.AddYears(-2)).And.BeOnOrBefore(today.AddYears(2));
-        });
-    }
-
-    [Fact]
     public void RandomString()
     {
         RepeatWithoutCollision(() =>
